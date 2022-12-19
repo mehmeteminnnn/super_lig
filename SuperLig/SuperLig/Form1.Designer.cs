@@ -423,6 +423,7 @@
             this.button3.TabIndex = 10;
             this.button3.Text = "Simüle Et";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label17
             // 
@@ -493,6 +494,7 @@
             this.label23.Size = new System.Drawing.Size(30, 20);
             this.label23.TabIndex = 1;
             this.label23.Text = "TS";
+            this.label23.Click += new System.EventHandler(this.label23_Click);
             // 
             // label24
             // 

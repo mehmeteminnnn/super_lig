@@ -9,3 +9,14 @@ C:\Users\mhmtm\Desktop\SuperLig\SuperLig\obj\Debug\SuperLig.csproj.GenerateResou
 C:\Users\mhmtm\Desktop\SuperLig\SuperLig\obj\Debug\SuperLig.csproj.CoreCompileInputs.cache
 C:\Users\mhmtm\Desktop\SuperLig\SuperLig\obj\Debug\SuperLig.exe
 C:\Users\mhmtm\Desktop\SuperLig\SuperLig\obj\Debug\SuperLig.pdb
+C:\Users\mhmtm\Documents\GitHub\super_lig\SuperLig\SuperLig\bin\Debug\SuperLig.exe.config
+C:\Users\mhmtm\Documents\GitHub\super_lig\SuperLig\SuperLig\bin\Debug\SuperLig.exe
+C:\Users\mhmtm\Documents\GitHub\super_lig\SuperLig\SuperLig\bin\Debug\SuperLig.pdb
+C:\Users\mhmtm\Documents\GitHub\super_lig\SuperLig\SuperLig\obj\Debug\SuperLig.csproj.AssemblyReference.cache
+C:\Users\mhmtm\Documents\GitHub\super_lig\SuperLig\SuperLig\obj\Debug\SuperLig.csproj.SuggestedBindingRedirects.cache
+C:\Users\mhmtm\Documents\GitHub\super_lig\SuperLig\SuperLig\obj\Debug\SuperLig.Form1.resources
+C:\Users\mhmtm\Documents\GitHub\super_lig\SuperLig\SuperLig\obj\Debug\SuperLig.Properties.Resources.resources
+C:\Users\mhmtm\Documents\GitHub\super_lig\SuperLig\SuperLig\obj\Debug\SuperLig.csproj.GenerateResource.cache
+C:\Users\mhmtm\Documents\GitHub\super_lig\SuperLig\SuperLig\obj\Debug\SuperLig.csproj.CoreCompileInputs.cache
+C:\Users\mhmtm\Documents\GitHub\super_lig\SuperLig\SuperLig\obj\Debug\SuperLig.exe
+C:\Users\mhmtm\Documents\GitHub\super_lig\SuperLig\SuperLig\obj\Debug\SuperLig.pdb

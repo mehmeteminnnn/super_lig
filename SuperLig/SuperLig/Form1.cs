@@ -69,22 +69,22 @@ namespace SuperLig
 
         private void button2_Click(object sender, EventArgs e)
         {
-            button1.Enabled = false;
-            label13.Text = rastgele.Next(0, 5).ToString();
-            label14.Text = rastgele.Next(0, 5).ToString();
-            label15.Text = rastgele.Next(0, 5).ToString();
-            label16.Text = rastgele.Next(0, 5).ToString();
-            if (Convert.ToInt32(label16.Text) > Convert.ToInt32(label15.Text))
+            button2.Enabled = false;
+            label9.Text = rastgele.Next(0, 5).ToString();
+            label10.Text = rastgele.Next(0, 5).ToString();
+            label11.Text = rastgele.Next(0, 5).ToString();
+            label12.Text = rastgele.Next(0, 5).ToString();
+            if (Convert.ToInt32(label12.Text) > Convert.ToInt32(label11.Text))
             {
                 tspuan += 3;
                 labeltspuan.Text = tspuan.ToString();
             }
-            if (Convert.ToInt32(label15.Text) > Convert.ToInt32(label16.Text))
+            if (Convert.ToInt32(label11.Text) > Convert.ToInt32(label12.Text))
             {
                 fbpuan += 3;
                 labelfbpuan.Text = fbpuan.ToString();
             }
-            if (Convert.ToInt32(label15.Text) == Convert.ToInt32(label16.Text))
+            if (Convert.ToInt32(label11.Text) == Convert.ToInt32(label12.Text))
             {
                 tspuan += 1;
                 fbpuan += 1;
@@ -92,17 +92,17 @@ namespace SuperLig
                 labelfbpuan.Text = fbpuan.ToString();
 
             }//TS FB MAÇI BİTTİ
-            if (Convert.ToInt32(label14.Text) > Convert.ToInt32(label13.Text))
+            if (Convert.ToInt32(label10.Text) > Convert.ToInt32(label9.Text))
             {
                 bjkpuan += 3;
                 labelbjkpuan.Text = bjkpuan.ToString();
             }
-            if (Convert.ToInt32(label13.Text) > Convert.ToInt32(label14.Text))
+            if (Convert.ToInt32(label9.Text) > Convert.ToInt32(label10.Text))
             {
                 gspuan += 3;
                 labelgspuan.Text = gspuan.ToString();
             }
-            if (Convert.ToInt32(label13.Text) == Convert.ToInt32(label14.Text))
+            if (Convert.ToInt32(label9.Text) == Convert.ToInt32(label10.Text))
             {
                 gspuan += 1;
                 bjkpuan += 1;
@@ -114,47 +114,6 @@ namespace SuperLig
 
         private void groupBox3_Enter(object sender, EventArgs e)
         {
-            button1.Enabled = false;
-            label24.Text = rastgele.Next(0, 5).ToString();
-            label23.Text = rastgele.Next(0, 5).ToString();
-            label22.Text = rastgele.Next(0, 5).ToString();
-            label21.Text = rastgele.Next(0, 5).ToString();
-            if (Convert.ToInt32(label24.Text) > Convert.ToInt32(label23.Text))
-            {
-                gspuan += 3;
-                labelgspuan.Text = gspuan.ToString();
-            }
-            if (Convert.ToInt32(label23.Text) > Convert.ToInt32(label24.Text))
-            {
-                tspuan += 3;
-                labeltspuan.Text = tspuan.ToString();
-            }
-            if (Convert.ToInt32(label24.Text) == Convert.ToInt32(label23.Text))
-            {
-                gspuan += 1;
-                tspuan += 1;
-                labelgspuan.Text = gspuan.ToString();
-                labeltspuan.Text = tspuan.ToString();
-
-            }//GS TS MAÇI BİTTİ
-            if (Convert.ToInt32(label21.Text) > Convert.ToInt32(label22.Text))
-            {
-                bjkpuan += 3;
-                labelbjkpuan.Text = bjkpuan.ToString();
-            }
-            if (Convert.ToInt32(label22.Text) > Convert.ToInt32(label21.Text))
-            {
-                fbpuan += 3;
-                labelfbpuan.Text = fbpuan.ToString();
-            }
-            if (Convert.ToInt32(label21.Text) == Convert.ToInt32(label22.Text))
-            {
-                fbpuan += 1;
-                bjkpuan += 1;
-                labelfbpuan.Text = fbpuan.ToString();
-                labelbjkpuan.Text = bjkpuan.ToString();
-
-            }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -179,5 +138,56 @@ namespace SuperLig
 
             
         }
-    } }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.Enabled = false;
+            label17.Text = rastgele.Next(0, 5).ToString();
+            label18.Text = rastgele.Next(0, 5).ToString();
+            label19.Text = rastgele.Next(0, 5).ToString();
+            label20.Text = rastgele.Next(0, 5).ToString();
+            if (Convert.ToInt32(label20.Text) > Convert.ToInt32(label19.Text))
+            {
+                gspuan += 3;
+                labelgspuan.Text = gspuan.ToString();
+            }
+            if (Convert.ToInt32(label19.Text) > Convert.ToInt32(label20.Text))
+            {
+                tspuan += 3;
+                labeltspuan.Text = tspuan.ToString();
+            }
+            if (Convert.ToInt32(label20.Text) == Convert.ToInt32(label19.Text))
+            {
+                gspuan += 1;
+                tspuan += 1;
+                labelgspuan.Text = gspuan.ToString();
+                labeltspuan.Text = tspuan.ToString();
+
+            }//GS TS MAÇI BİTTİ
+            if (Convert.ToInt32(label17.Text) > Convert.ToInt32(label18.Text))
+            {
+                bjkpuan += 3;
+                labelbjkpuan.Text = bjkpuan.ToString();
+            }
+            if (Convert.ToInt32(label18.Text) > Convert.ToInt32(label17.Text))
+            {
+                fbpuan += 3;
+                labelfbpuan.Text = fbpuan.ToString();
+            }
+            if (Convert.ToInt32(label17.Text) == Convert.ToInt32(label18.Text))
+            {
+                fbpuan += 1;
+                bjkpuan += 1;
+                labelfbpuan.Text = fbpuan.ToString();
+                labelbjkpuan.Text = bjkpuan.ToString();
+
+            }
+        }
+    }
+    } 
 
